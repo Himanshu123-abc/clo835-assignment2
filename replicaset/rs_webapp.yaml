@@ -24,7 +24,6 @@ spec:
               value: "mysql"
             - name: DBUSER
               value: "root"
-            - name: DBPWD
-              value: "passwors"
+            - name: DBPW
             - name: DBPORT
               value: "3306"
