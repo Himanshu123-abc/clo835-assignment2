@@ -16,7 +16,7 @@ spec:
         - name: regcred
       containers:
         - name: webapp
-          image: 715516676726.dkr.ecr.us-east-1.amazonaws.com/webapp:latest
+          image: 255047824089.dkr.ecr.us-east-1.amazonaws.com/webapp:latest
           ports:
             - containerPort: 8080
           env:
@@ -27,4 +27,4 @@ spec:
             - name: DBPWD
               value: "passwors"
             - name: DBPORT
-              value: "3306"
+             
